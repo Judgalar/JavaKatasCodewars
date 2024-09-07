@@ -33,7 +33,7 @@ public class NumberUtils {
 
         for (char digit : digits) {
             int x = digit - '0'; // Integer.parseInt(String.valueOf(digit))
-            sum += Math.pow(x, n);
+            sum += (int) Math.pow(x, n);
         }
 
         return sum == number;

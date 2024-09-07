@@ -34,6 +34,6 @@ public class DescendingOrder {
             sortedStr.append(c);
         }
 
-        return Integer.valueOf(sortedStr.toString());
+        return Integer.parseInt(sortedStr.toString());
     }
   }
